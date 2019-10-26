@@ -43,7 +43,6 @@ def naming_system
   # HoH all the way to Species!
 
   hash = {
-    {
       :label => "Kingdom",
       :sub_category => {
         :label => "Phylum",
@@ -52,7 +51,6 @@ def naming_system
               :sub_category => {
                 :label => "Order",
                   :sub_category => {}
-          }
         }
       }
     }
